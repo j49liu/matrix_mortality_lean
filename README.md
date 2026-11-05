@@ -1,10 +1,10 @@
 # Lean formalization of two-dimensional matrix mortality
 
 This repository contains the Lean 4 formalization accompanying the paper
-that proves undecidability of mortality for integer `2 × 2` matrices. The
-formalized construction uses 5,798 fixed nonsingular matrices and one
-input-dependent rank-one matrix, for exactly 5,799 distinct matrices in each
-instance.
+[*Mortality Is Undecidable for 2 × 2 Integer
+Matrices*](https://arxiv.org/abs/2611.06562). The formalized construction uses
+5,798 fixed nonsingular matrices and one input-dependent rank-one matrix, for
+exactly 5,799 distinct matrices in each instance.
 
 The paper-facing endpoint is
 `Mortality.PaperTheorem.paper_result`. It collects the structural,
